@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 				glue="com.StepDefination.nc",
 				dryRun=false,
 				monochrome=true,
-				plugin= {"pretty","html:test-output"}
+				plugin={"pretty","html:test-output"}
 				
 				)
 public class Runner {
